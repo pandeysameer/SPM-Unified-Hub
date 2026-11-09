@@ -1,0 +1,11 @@
+{
+  "name": "SPM Unified Hub",
+  "basename": "spm-unified-hub",
+  "landing": "/home",
+  "development": {
+    "token": ""
+  },
+  "build": {
+    "exclude": ["**/*.test.js", "**/test/**"]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "scope": "x_custom_spm_hub",
+  "scopeId": "b1824add08634dcd8e6291b88c0effa7",
+  "name": "SPM Unified Hub",
+  "metadataDir": "src/plugin-xmls",
+  "appOutputDir": "dist-metadata/app",
+  "packageSourceCodeOnInstance": true,
+  "staticContent": {
+    "assets": {
+      "./public/**": {
+        "publicPath": "[$config.aiux.basename]/public"
+      }
+    }
+  }
+}
